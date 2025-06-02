@@ -534,8 +534,22 @@ main .strategy .container .modal-games div,
 main .fighting .container .modal-games div,
 main .survival .container .modal-games div {
   border-radius: 8px;
+  cursor: pointer;
   border: 2px solid var(--text-color);
   position: relative;
+}
+main .actions .container .modal-games div:hover,
+main .adventures .container .modal-games div:hover,
+main .horror .container .modal-games div:hover,
+main .shooter .container .modal-games div:hover,
+main .simulation .container .modal-games div:hover,
+main .sports .container .modal-games div:hover,
+main .racing .container .modal-games div:hover,
+main .fighting .container .modal-games div:hover,
+main .strategy .container .modal-games div:hover,
+main .fighting .container .modal-games div:hover,
+main .survival .container .modal-games div:hover {
+  outline: 2px solid gold;
 }
 main .actions .container .modal-games div .overlay,
 main .adventures .container .modal-games div .overlay,
